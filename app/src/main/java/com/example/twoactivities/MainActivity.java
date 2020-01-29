@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(LOG_TAG, "-------"); // Log the start of the onCreate() method.
-        Log.d(LOG_TAG, "onCreate");
+        Log.d(LOG_TAG, "-------");
+        Log.d(LOG_TAG, "onCreate");// Log the start of the onCreate() method.
         mMessageEditText = findViewById(R.id.editText_main); // References the EditText
         mReplyHeadTextView = findViewById(R.id.text_header_reply); // References the reply header
         mReplyTextView = findViewById(R.id.text_message_reply); // References the reply message
